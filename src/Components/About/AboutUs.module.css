@@ -1,0 +1,86 @@
+.aboutSection {
+  background: url("../../assets/Garbage.png") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  margin-top: 2rem;
+  z-index: 1;
+}
+
+.layer {
+  background: url("../../assets/Vector8.png") no-repeat 330px 0px;
+  background-size: cover;
+  height: 100vh;
+  z-index: 999;
+}
+
+.aboutUsContainer h3,
+.whereContainer h3 {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 89.5px;
+}
+
+.aboutUsContainer p,
+.whereContainer p {
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--white-color);
+}
+
+.aboutUsContainer p {
+  font-weight: 700;
+}
+
+.whereContainer p {
+  font-weight: 600;
+}
+
+.imgContainer {
+  width: 340px;
+  border-radius: 20px;
+}
+
+.imgContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 992px) {
+  .aboutUsContainer h3,
+  .whereContainer h3 {
+    font-size: 45px;
+    line-height: 45px;
+    margin-top: 10px;
+  }
+
+  .aboutUsContainer p,
+  .whereContainer p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .imgContainer {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .aboutUsContainer h3,
+  .whereContainer h3 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-top: 20px;
+  }
+
+  .aboutUsContainer p,
+  .whereContainer p {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .imgContainer {
+    width: 250px;
+    margin-top: 13px;
+  }
+}

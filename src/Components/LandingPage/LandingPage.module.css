@@ -1,0 +1,177 @@
+.landingSection {
+  background: url("../../assets/Vector7.png") no-repeat;
+  height: 100vh;
+  background-size: contain;
+  background-color: var(--bg-gray-color);
+}
+
+.subTitle {
+  text-transform: capitalize;
+  color: var(--main-color);
+  margin: auto;
+}
+
+.subTitle .subTitleTop {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 40.1px;
+}
+
+.subTitle .subTitleDown {
+  font-weight: 800;
+  font-size: 19px;
+  line-height: 24.88px;
+  letter-spacing: 13px;
+}
+
+.title h1 {
+  text-align: center;
+  color: var(--gray-color);
+  font-size: 85px;
+  line-height: 70px;
+}
+
+.title .titleTop {
+  font-weight: 250;
+}
+
+.title .titleDown {
+  font-weight: 900;
+}
+
+.titleDescContainer {
+  width: 450px;
+  margin: auto;
+}
+
+.titleDesc {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+  color: var(--gray-color);
+}
+
+@media screen and (max-width: 992px) {
+  .landingSection {
+    height: 100vh;
+    background-position: -150px 0px;
+    background-size: cover;
+  }
+
+  .subTitle .subTitleTop {
+    font-size: 40px;
+    line-height: 20px;
+  }
+
+  .subTitle .subTitleDown {
+    font-size: 15px;
+    letter-spacing: 8px;
+  }
+
+  .imgContainer {
+    width: 60px;
+  }
+
+  .imgContainer img {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 65px;
+    line-height: 50px;
+  }
+
+  .titleDesc {
+    width: 450px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .landingSection {
+    height: 100vh;
+    background-position: -150px 0px;
+    background-size: cover;
+  }
+
+  .subTitle {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .subTitle .subTitleTop {
+    font-size: 35px;
+    line-height: 20px;
+  }
+
+  .subTitle .subTitleDown {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 4px;
+  }
+
+  .imgContainer {
+    width: 50px;
+  }
+
+  .imgContainer img {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 60px;
+    line-height: 45px;
+  }
+  
+  .titleDesc {
+    margin-top: 3rem;
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .landingSection {
+    height: 100vh;
+    background-position: -300px 0px;
+    background-size: cover;
+  }
+
+  .subTitle {
+    padding-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .subTitle .subTitleTop {
+    font-size: 35px;
+    line-height: 20px;
+  }
+
+  .subTitle .subTitleDown {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 4px;
+  }
+
+  .imgContainer {
+    width: 50px;
+  }
+
+  .imgContainer img {
+    width: 100%;
+  }
+
+  .title h1 {
+    font-size: 60px;
+    line-height: 45px;
+  }
+
+  .titleDesc {
+    margin-top: 3rem;
+    font-size: 18px;
+    line-height: 18px;
+  }
+}

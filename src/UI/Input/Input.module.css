@@ -1,0 +1,11 @@
+.input {
+  background-color: var(--light-main-color) !important;
+}
+
+.input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #000;
+}

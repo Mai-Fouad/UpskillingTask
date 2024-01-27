@@ -1,0 +1,194 @@
+button {
+  border: none;
+  opacity: 0.8;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+.btnText {
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.expertBtn {
+  padding: 2.5px 25px;
+  border-radius: 15px;
+  background-color: var(--main-color);
+}
+
+.expertText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.helpBtn,
+.helpBtnService,
+.aboutBtn {
+  padding: 12px 60px;
+  border-radius: 71px;
+}
+
+.helpBtn,
+.helpBtnService {
+  background-color: var(--second-main-color);
+}
+
+.helpText,
+.helpTextService,
+.aboutText {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.aboutBtn {
+  margin-top: 20px !important;
+  background-color: var(--yellow-color);
+  margin: auto;
+}
+
+.aboutText,
+.sendText {
+  color: var(--dark-color);
+}
+
+.sendBtn {
+  padding: 15px 55px;
+  border-radius: 25px;
+  border: 3px solid var(--second-main-color);
+}
+
+.sendText {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.78px;
+  color: #000;
+}
+
+@media screen and (max-width: 992px) {
+  .expertBtn {
+    padding: 10px 20px;
+    margin: 30px 0px;
+  }
+
+  .expertText {
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+  .helpBtn,
+  .aboutBtn {
+    padding: 18px 45px;
+    margin: 20px 0px;
+  }
+
+  .helpBtnService {
+    padding: 13px 40px;
+    margin: 15px 0px;
+  }
+
+  .helpTextService {
+    font-size: 22px;
+    line-height: 20px;
+  }
+
+  .helpText,
+  .aboutText {
+    font-size: 20px;
+    line-height: 10px;
+  }
+
+  .sendBtn {
+    padding: 10px 35px;
+  }
+
+  .sendText {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .expertBtn {
+    padding: 7px 20px;
+    margin: 25px 0px;
+  }
+
+  .expertText {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .helpBtn,
+  .aboutBtn {
+    margin: 30px 0px;
+    padding: 15px 45px;
+  }
+
+  .helpText,
+  .aboutText {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .sendBtn {
+    padding: 10px 45px;
+  }
+
+  .sendText {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .expertBtn {
+    padding: 8px 20px;
+    margin: 20px 0px;
+  }
+
+  .expertText {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .helpBtn,
+  .aboutBtn {
+    padding: 10px 45px;
+    margin: 30px 0px;
+  }
+
+  .helpBtnService {
+    padding: 10px 30px;
+    margin: 10px 0px;
+  }
+
+  .helpTextService {
+    font-size: 18px;
+    line-height: 15px;
+  }
+
+  .helpText,
+  .aboutText {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .sendBtn {
+    padding: 10px 35px;
+  }
+
+  .sendText {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

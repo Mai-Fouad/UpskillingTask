@@ -1,0 +1,28 @@
+.contactContainer {
+  background-color: var(--white-color);
+}
+
+.icon {
+  color: var(--second-main-color);
+}
+
+.info {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Abel", sans-serif;
+  line-height: 17.84px;
+  color: var(--gray2-color);
+  margin-bottom: 0px !important;
+}
+
+.hasSent {
+  color: green;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .infoContainer {
+    margin-top: 20px;
+  }
+}
